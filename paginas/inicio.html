@@ -1,0 +1,466 @@
+ <!-- Font awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">   
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="css/nouislider.css">
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="css/style.css" rel="stylesheet">    
+    <script src="js/jquery.min.js"></script> 
+	  <!-- Custom js -->
+    <script src="js/custom.js"></script> 
+	
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <section id="aa-slider">
+    <div class="aa-slider-area"> 
+      <div class="aa-top-slider">
+        <div class="aa-top-slider-single">
+          <img src="img/slider/1.jpg" alt="img">
+          <div class="aa-top-slider-content">
+			<h2 class="aa-top-slider-title">Encontre</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>as melhores Propriedade com</p>
+            <p class="aa-top-slider-price">YL Real Estate</p>
+            <a href="#" class="aa-top-slider-btn">Saiba Mais<span class="fa fa-angle-double-right"></span></a>
+          </div>
+        </div>
+        <div class="aa-top-slider-single">
+          <img src="img/slider/2.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="aa-top-slider-content">
+            <h2 class="aa-top-slider-title">Venda</h2>
+            <p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>a sua Propriedade com </p>
+            <p class="aa-top-slider-price">YL Real Estate</p>
+            <a href="#" class="aa-top-slider-btn">Saiba Mais <span class="fa fa-angle-double-right"></span></a>
+          </div>
+        </div>
+        <div class="aa-top-slider-single">
+          <img src="img/slider/3.jpg" alt="img">
+          <div class="aa-top-slider-content">
+            <h2 class="aa-top-slider-title">Fique descansado</h2>
+            <p class="aa-top-slider-location">que a</p>
+            <p class="aa-top-slider-price">YL Real Estate</p>
+			<p class="aa-top-slider-location"><i class="fa fa-map-marker"></i>encontra por você</p>
+            <a href="#" class="aa-top-slider-btn">Saiba Mais<span class="fa fa-angle-double-right"></span></a>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+  
+  <section id="aa-advance-search">
+    <div class="container">
+      <div class="aa-advance-search-area">
+        <div class="form">
+         <div class="aa-advance-search-top">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="aa-single-advance-search">
+                  <input type="text" placeholder="Degite o Local">
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="aa-single-advance-search">
+                  <select>
+                   <option value="0" selected>Cidade</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                 <div class="aa-single-advance-search">
+                  <select>
+                    <option value="0" selected>Área</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+              </div>
+              </div>
+              <div class="col-md-2">
+                 <div class="aa-single-advance-search">
+                  <select>
+                    <option value="0" selected>Tipo</option>
+                    <option value="1">Flat</option>
+                    <option value="2">Land</option>
+                    <option value="3">Plot</option>
+                    <option value="4">Commercial</option>
+                  </select>
+              </div>
+              </div>
+              <div class="col-md-2">
+                <div class="aa-single-advance-search">
+                  <input class="aa-search-btn" type="submit" value="Search">
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="aa-advance-search-bottom">
+           <div class="row">
+            <div class="col-md-6">
+              <div class="aa-single-filter-search">
+                <span>AREA (SQ)</span>
+                <span>DE</span>
+                <span id="skip-value-lower" class="example-val">30.00</span>
+                <span>ATE</span>
+                <span id="skip-value-upper" class="example-val">100.00</span>
+                <div id="aa-sqrfeet-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+                </div>                  
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="aa-single-filter-search">
+                <span>PREÇO ($)</span>
+                <span>DE</span>
+                <span id="skip-value-lower2" class="example-val">30.00</span>
+                <span>ATE</span>
+                <span id="skip-value-upper2" class="example-val">100.00</span>
+                <div id="aa-price-range" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+                </div>      
+              </div>
+            </div>
+          </div>  
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-about-us-area">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="aa-about-us-left">
+                  <img src="img/about-us.png" alt="image">
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="aa-about-us-right">
+                  <div class="aa-title">
+                    <h2>Sobre Nós</h2>
+                    <span></span>
+                  </div>
+                  <p style="text-align:justify;">A YL Real Estate é uma empresa Moçambicana que actua no mercado imobiliário, trabalhando com compra, venda, arrendamento e administração de imóveis.<br><br>Temos uma equipe profissional e altamente qualificada e com ampla experiência no sector imobiliário, estamos aptos para encontrar e negociar os melhores imóveis com rapidez e agilidade.</p>                  
+                  <ul>
+                    <li>Actuamos a mais de cinco anos no mercado de imobiliário.</li>
+                    <li>Temos as melhores  soluções na compra, venda e arrendamento de imóveis.</li>                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-latest-property">
+    <div class="container">
+      <div class="aa-latest-property-area">
+        <div class="aa-title">
+          <h2>Propriedades Recentes</h2>
+          <span></span>
+          <p></p>         
+        </div>
+        <div class="aa-latest-properties-content">
+          <div class="row">
+            <div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/1.jpg" alt="img">
+                </a>
+                <div class="aa-tag for-sale">
+                  Para Venda
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>2 Salas</span>
+                    <span>2 Quartos</span>
+                    <span>3 Casa de Banhos</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Moradia no B. Central</a></h3>
+                    <p>Apartamento bem localizado </p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      $35000
+                    </span>
+                    <p><a onclick="return false;" href="paginas/detalhes_propriedades.html" class="buscarPagina btn aa-secondary-btn btn-outline with-arrow">Ver Detalhes<i class="fa fa-arrow-right"></i></a></p>
+                  </div>
+                </div>
+              </article>
+            </div>
+			<div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/2.jpg" alt="img">
+                </a>
+                <div class="aa-tag for-sale">
+                  Para Venda
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>2 Salas</span>
+                    <span>2 Quartos</span>
+                    <span>3 Casa de Banhos</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Moradia em Museu</a></h3>
+                    <p>Apartamento bem localizado </p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      $45000
+                    </span>
+                     <p><a onclick="return false;" href="paginas/detalhes_propriedades.html" class="buscarPagina btn aa-secondary-btn btn-outline with-arrow">Ver Detalhes<i class="fa fa-arrow-right"></i></a></p>
+                  </div>
+                </div>
+              </article>
+            </div>
+			<div class="col-md-4">
+              <article class="aa-properties-item">
+                <a href="#" class="aa-properties-item-img">
+                  <img src="img/item/3.jpg" alt="img">
+                </a>
+                <div class="aa-tag for-rent">
+                  Para Arrendar
+                </div>
+                <div class="aa-properties-item-content">
+                  <div class="aa-properties-info">
+                    <span>2 Salas</span>
+                    <span>2 Quartos</span>
+                    <span>3 Casa de Banhos</span>
+                  </div>
+                  <div class="aa-properties-about">
+                    <h3><a href="#">Moradia</a></h3>
+                    <p>Apartamento bem localizado </p>                      
+                  </div>
+                  <div class="aa-properties-detial">
+                    <span class="aa-price">
+                      $35000
+                    </span>
+                     <p><a onclick="return false;" href="paginas/detalhes_propriedades.html" class="buscarPagina btn aa-secondary-btn btn-outline with-arrow">Ver Detalhes<i class="fa fa-arrow-right"></i></a></p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="aa-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-service-area">
+            <div class="aa-title">
+              <h2>Nossos Serviços</h2>
+              <span></span>
+              <p>Com conhecimento e experiência adequada a YL Real Estate traz soluções na venda, compra e arrendamento de imóveis comerciais, casas de praia, residências entre outros, conforme as exigências e necessidades de cada cliente.</p>
+            </div>
+            <div class="aa-service-content">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-home"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Venda de<br>Propriedades</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-check"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Aluguer de<br>Propriedades</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-crosshairs"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Desenvolvimento de<br>Propriedades</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="aa-single-service">
+                    <div class="aa-service-icon">
+                      <span class="fa fa-bar-chart-o"></span>
+                    </div>
+                    <div class="aa-single-service-content">
+                      <h4><a href="#">Análise do<br>mercado</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-promo-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-promo-banner-area">
+            <h3>Encontre as melhores propriedades</h3>
+            <p>Temos as melhores soluções na compra, venda e arrendamento de imóveis. Oferecendo ao mercado solucoes com um nível elevado de diferenciação.</p>
+              <p><a href="#" class="btn aa-view-btn btn-outline with-arrow">Ver Detalhes<i class="fa fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-agents" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-agents-area">
+            <div class="aa-title">
+              <h2>Agente</h2>
+              <span></span>
+           </div>
+            <div class="row" >
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h2>Mayzel Texeira</h2>
+                        <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                       <p><a href="#" class="btn aa-secondary-btn btn-outline with-arrow">Contactar<i class="fa fa-arrow-right"></i></a></p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-md-3">
+                    <div class="post-media wow fadeIn">
+                        <img src="img/agent.jpg" alt="" class="img-responsive">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+                <div class="col-md-3">
+                    <div class="agencies_meta clearfix">
+                        <span><i class="fa fa-envelope "></i> <a href="mailto:support@sitename.com">mayzel.teixeira@ylrealestate.co.mz</a></span>
+                        <span><i class="fa fa-phone-square "></i> +258 84 882 856 9</span>
+                        <span><i class="fa fa-facebook-square "></i> <a href="#">facebook.com/mayzel</a></span>
+                        <span><i class="fa fa-twitter-square "></i> <a href="#">twitter.com/mayzel</a></span>
+                        <span><i class="fa fa-linkedin-square "></i> <a href="#">linkedin.com/mayzel</a></span>
+                    </div><!-- end agencies_meta -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aa-latest-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-latest-blog-area">
+            <div class="aa-title">
+              <h2>Notícias Recentes</h2>
+              <span></span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe magni, est harum repellendus. Accusantium, nostrum!</p>
+            </div>
+            <div class="aa-latest-blog-content">
+              <div class="row">
+                <!-- start single blog -->
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina"><img src="img/blog-img-1.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 Abril, 20</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina">Mercado imobiliário.</a></h3>
+                      <p>Aproveita o crescimento do mercado da venda e arrendamento em Moçambique e invista no mercado imobiliário, permitindo a diversificação do seu património e auferir uma rentabilidade superior a outras aplicações.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>
+                   
+                  </article>
+                </div>
+
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina"><img src="img/blog-img-2.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 Abril, 20</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina">Mercado imobiliário.</a></h3>
+                      <p>Aproveita o crescimento do mercado da venda e arrendamento em Moçambique e invista no mercado imobiliário, permitindo a diversificação do seu património e auferir uma rentabilidade superior a outras aplicações.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>
+                   
+                  </article>
+                </div>
+
+                <div class="col-md-4">
+                  <article class="aa-blog-single">
+                    <figure class="aa-blog-img">
+                      <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina"><img src="img/blog-img-3.jpg" alt="img"></a>
+                      <span class="aa-date-tag">15 Abril, 20</span>
+                    </figure>
+                    <div class="aa-blog-single-content">
+                      <h3><a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina">Mercado imobiliário.</a></h3>
+                      <p>Aproveita o crescimento do mercado da venda e arrendamento em Moçambique e invista no mercado imobiliário, permitindo a diversificação do seu património e auferir uma rentabilidade superior a outras aplicações.</p>
+                      <div class="aa-blog-single-bottom">
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-author"><i class="fa fa-user"></i> Admin</a>
+                        <a onclick="return false;" href="paginas/blogue_detalhe.html" class="buscarPagina aa-blog-comments"><i class="fa fa-comment-o"></i>6</a>
+                      </div>
+                    </div>
+                   
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <script src="js/bootstrap.js"></script>   
+  <!-- slick slider -->
+  <script type="text/javascript" src="js/slick.js"></script>
+  <!-- Price picker slider -->
+  <script type="text/javascript" src="js/nouislider.js"></script>
+   <!-- mixit slider -->
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  
